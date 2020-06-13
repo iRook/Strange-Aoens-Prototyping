@@ -1,0 +1,148 @@
+{
+"skeleton": {
+	"hash": "/elhVXJeDaW9Zaq8X6go4vUL5h0",
+	"spine": "3.8.95",
+	"x": -66.64,
+	"y": -0.86,
+	"width": 144.41,
+	"height": 322.18,
+	"images": "C:/SpineAnimations/PrototypingCharacters/images/",
+	"audio": "C:/SpineAnimations/PrototypingCharacters"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "body", "parent": "root", "length": 255.21, "rotation": 90, "x": -1.34, "y": 0.8 }
+],
+"slots": [
+	{ "name": "Layer 1", "bone": "body", "attachment": "Body" }
+],
+"skins": [
+	{
+		"name": "Enemy",
+		"attachments": {
+			"Layer 1": {
+				"Body": { "name": "Layer 2", "x": 142.93, "y": 2.59, "rotation": -90, "width": 205, "height": 289 }
+			}
+		}
+	},
+	{
+		"name": "Player",
+		"attachments": {
+			"Layer 1": {
+				"Body": { "name": "Layer 1", "x": 159.43, "y": -6.91, "rotation": -90.07, "width": 144, "height": 322 }
+			}
+		}
+	}
+],
+"events": {
+	"particle_dust": {}
+},
+"animations": {
+	"attack": {
+		"bones": {
+			"body": {
+				"shear": [
+					{ "x": -35.01, "y": -17.85 },
+					{ "time": 0.0667, "x": 11.52 },
+					{ "time": 0.1333, "x": -17.89 },
+					{ "time": 0.2 }
+				]
+			}
+		}
+	},
+	"hurt": {
+		"slots": {
+			"Layer 1": {
+				"color": [
+					{ "color": "e9ff0064" },
+					{ "time": 0.2, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"scale": [
+					{}
+				],
+				"shear": [
+					{ "y": 10.05 },
+					{ "time": 0.2 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"bones": {
+			"body": {
+				"scale": [
+					{ "curve": 0.639, "c3": 0.44 },
+					{ "time": 0.5, "x": 0.969, "y": 1.081, "curve": 0.639, "c3": 0.44 },
+					{ "time": 1 }
+				]
+			}
+		}
+	},
+	"jump": {
+		"bones": {
+			"body": {
+				"scale": [
+					{ "x": 0.869, "y": 1.292, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0667 }
+				]
+			}
+		},
+		"events": [
+			{ "name": "particle_dust" }
+		]
+	},
+	"land": {
+		"bones": {
+			"body": {
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667, "curve": 0.243, "c3": 0.649, "c4": 0.6 },
+					{ "time": 0.2667, "y": 11.32, "curve": 0.382, "c2": 0.57, "c3": 0.735 },
+					{ "time": 0.4333, "curve": "stepped" },
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{ "x": 0.875, "y": 1.146, "curve": 0.276, "c3": 0.621, "c4": 0.4 },
+					{
+						"time": 0.1667,
+						"x": 0.362,
+						"y": 1.572,
+						"curve": 0.314,
+						"c2": 0.27,
+						"c3": 0.657,
+						"c4": 0.64
+					},
+					{ "time": 0.3333, "x": 1.296, "y": 0.858, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 0.5, "x": 0.974, "y": 1.24, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"run": {
+		"bones": {
+			"body": {
+				"translate": [
+					{ "y": 2.56, "curve": 0.235, "c2": 0.6, "c3": 0.544 },
+					{ "time": 0.0333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "y": 28.15, "curve": 0.648, "c3": 0.67, "c4": 0.67 },
+					{ "time": 0.2667, "y": 2.56 }
+				],
+				"scale": [
+					{ "y": 1.098, "curve": 0.209, "c2": 0.5, "c3": 0.416 },
+					{ "time": 0.0667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "y": 1.192, "curve": 0.585, "c3": 0.794, "c4": 0.5 },
+					{ "time": 0.2667, "y": 1.098 }
+				]
+			}
+		},
+		"events": [
+			{ "name": "particle_dust" }
+		]
+	}
+}
+}

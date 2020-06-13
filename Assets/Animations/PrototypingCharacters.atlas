@@ -1,0 +1,20 @@
+
+PrototypingCharacters.png
+size: 181,181
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 107, 18
+  size: 72, 161
+  orig: 72, 161
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 2, 34
+  size: 103, 145
+  orig: 103, 145
+  offset: 0, 0
+  index: -1

@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    [SerializeField] private float maxHealth;
+    [SerializeField] public float maxHealth;
 
     [SerializeField]
     private GameObject
         deathChunkParticle,
         deathBloodParticle;
 
-    private float currentHealth;
+    public float currentHealth;
 
     private GameManager GM;
 

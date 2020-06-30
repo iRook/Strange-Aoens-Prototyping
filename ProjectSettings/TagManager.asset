@@ -18,8 +18,8 @@ TagManager:
   - Player
   - Damageable
   - Dead
-  - 
-  - 
+  - Breakable
+  - Enemy
   - 
   - 
   - 

@@ -7,7 +7,7 @@ public class HealthTracker : MonoBehaviour
 {
     private PlayerStats PS;
 
-    public float numOfHealth;
+    public int numOfHealth;
 
     public Image[] health;
     public Sprite acquiredHealth;
@@ -23,7 +23,7 @@ public class HealthTracker : MonoBehaviour
     {
         numOfHealth = PS.currentHealth;
 
-        for (float i = 0; i < health.Length; i++)
+        for (int i = 0; i < health.Length; i++)
         {
             if (i < numOfHealth)
             {

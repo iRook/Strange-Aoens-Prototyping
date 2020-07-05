@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 2673070703988818140}
   - component: {fileID: 2673070703988818138}
   - component: {fileID: 2673070703988818137}
+  - component: {fileID: 229431139266901304}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -255,7 +256,8 @@ MonoBehaviour:
   combatEnabled: 1
   inputTimer: 0.2
   attack1Radius: 0.8
-  attack1Damage: 10
+  attack1Damage: 1
+  stunDamageAmount: 1
   attack1HitBoxPos: {fileID: 2673070705377122228}
   whatIsDamageable:
     serializedVersion: 2
@@ -272,11 +274,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52671da9f24360478eb92cd71285530, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
+  maxHealth: 5
   deathChunkParticle: {fileID: 3455854769530249627, guid: 81ddf44f3e22709438c73f246508463d,
     type: 3}
   deathBloodParticle: {fileID: 3470197042916966491, guid: 6c95be3dab7186044af47bb83da0a2d0,
     type: 3}
+--- !u!114 &229431139266901304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2673070703988818115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb5ebd9d6946c0849ad68bb9a758bff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numOfHealth: 0
+  health:
+  - {fileID: 4535487885364252367, guid: ea09aace5c658974e9e6c0854b992272, type: 3}
+  - {fileID: 4535487885364252367, guid: ea09aace5c658974e9e6c0854b992272, type: 3}
+  - {fileID: 4535487885364252367, guid: ea09aace5c658974e9e6c0854b992272, type: 3}
+  - {fileID: 4535487885364252367, guid: ea09aace5c658974e9e6c0854b992272, type: 3}
+  - {fileID: 4535487885364252367, guid: ea09aace5c658974e9e6c0854b992272, type: 3}
+  acquiredHealth: {fileID: -9168573835710782040, guid: a7098ba12f1d34c4684752bb60d4d0fb,
+    type: 3}
+  emptyHealth: {fileID: 0}
 --- !u!1 &2673070704583351034
 GameObject:
   m_ObjectHideFlags: 0

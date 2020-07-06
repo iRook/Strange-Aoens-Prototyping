@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    [SerializeField] private int maxHealth;
+    [SerializeField] private float maxHealth;
 
     [SerializeField]
     private GameObject
@@ -12,7 +12,7 @@ public class PlayerStats : MonoBehaviour
         deathBloodParticle;
 
     //[field: SerializeField]               type this if you want to display a get/set property, because [SerializeField] is not enough to show in inspector. (info from SilverboltGames)
-    public int currentHealth { get; private set; }
+    public float currentHealth { get; private set; }
 
     private GameManager GM;
 
@@ -22,7 +22,7 @@ public class PlayerStats : MonoBehaviour
         GM = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
-    public void DecreaseHealth(int amount)
+    public void DecreaseHealth(float amount)
     {
         currentHealth -= amount;
         if (currentHealth <= 0.0f)

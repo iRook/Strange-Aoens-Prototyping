@@ -291,8 +291,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb5ebd9d6946c0849ad68bb9a758bff8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numOfHealth: 0
-  health:
+  health: 0
+  numOfHealth: 5
+  healthSprites:
   - {fileID: 4535487885364252367, guid: ea09aace5c658974e9e6c0854b992272, type: 3}
   - {fileID: 4535487885364252367, guid: ea09aace5c658974e9e6c0854b992272, type: 3}
   - {fileID: 4535487885364252367, guid: ea09aace5c658974e9e6c0854b992272, type: 3}

@@ -6,8 +6,7 @@ using UnityEngine;
 public class PlayerCombatController : MonoBehaviour
 {
     [SerializeField] private bool combatEnabled;
-    [SerializeField] private float inputTimer, attack1Radius;
-    [SerializeField] private int attack1Damage;
+    [SerializeField] private float inputTimer, attack1Radius, attack1Damage;
     [SerializeField] private float stunDamageAmount = 1f;
     [SerializeField] Transform attack1HitBoxPos;
     [SerializeField] private LayerMask whatIsDamageable;

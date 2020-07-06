@@ -7,9 +7,10 @@ public class HealthTracker : MonoBehaviour
 {
     private PlayerStats PS;
 
+    public int health;
     public int numOfHealth;
 
-    public Image[] health;
+    public Image[] healthSprites;
     public Sprite acquiredHealth;
     public Sprite emptyHealth;
 
@@ -21,17 +22,31 @@ public class HealthTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        numOfHealth = PS.currentHealth;
+        health = (int) PS.currentHealth;
 
-        for (int i = 0; i < health.Length; i++)
+        if (health > numOfHealth)
         {
-            if (i < numOfHealth)
+            health = numOfHealth;
+        }
+
+        for (int i = 0; i < healthSprites.Length; i++)
+        {
+            if (i < health)
             {
-                health[i].enabled = true;
+                healthSprites[i].sprite = acquiredHealth;
             }
             else
             {
-                health[i].enabled = false;
+                healthSprites[i].sprite = emptyHealth;
+            }
+
+            if (i < numOfHealth)
+            {
+                healthSprites[i].enabled = true;
+            }
+            else
+            {
+                healthSprites[i].enabled = false;
             }
         }
     }

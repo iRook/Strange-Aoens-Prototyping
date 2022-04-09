@@ -7,7 +7,7 @@ public class CombatDummyController : MonoBehaviour
 {
     [SerializeField] private float maxHealth, knockbackSpeedX, knockbackSpeedY, knockbackDuration, knockbackDeathSpeedX, knockbackDeathSpeedY, deathTorque;
     [SerializeField] private bool applyKnockback;
-    [SerializeField] private GameObject hitParticle;
+    [SerializeField] private GameObject hitParticle, deathParticle;
 
     private float currentHealth, knockbackStart;
 
@@ -81,6 +81,7 @@ public class CombatDummyController : MonoBehaviour
         {
             //Die
             Die();
+            Instantiate(deathParticle, aliveAnim.transform.position, deathParticle.transform.rotation);
         }
     }
     private void Knockback()

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 850499259710678816}
-  - component: {fileID: 850499259710678817}
+  - component: {fileID: 3682668467471415604}
   m_Layer: 12
   m_Name: Combat Dummy
   m_TagString: Enemy
@@ -34,7 +34,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &850499259710678817
+--- !u!114 &3682668467471415604
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46,16 +46,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 859df03f4bdb2244da66fd87a797bd09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 4
+  maxHealth: 3
   knockbackSpeedX: 10
   knockbackSpeedY: 5
   knockbackDuration: 0.1
-  knockbackDeathSpeedX: 15
+  knockbackDeathSpeedX: 4
   knockbackDeathSpeedY: 8
-  deathTorque: 1
+  deathTorque: 0.01
   applyKnockback: 1
   hitParticle: {fileID: 7440515002960958242, guid: 755f8ce6357418c44bdc4f6d3a3bc76e,
     type: 3}
+  deathParticle: {fileID: 0}
 --- !u!1 &850499260025478418
 GameObject:
   m_ObjectHideFlags: 0
@@ -67,7 +68,7 @@ GameObject:
   - component: {fileID: 850499260025478419}
   - component: {fileID: 850499260025478422}
   - component: {fileID: 850499260025478417}
-  - component: {fileID: 850499260025478416}
+  - component: {fileID: 2345251726138853302}
   m_Layer: 11
   m_Name: Broken Top
   m_TagString: Enemy
@@ -83,8 +84,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850499260025478418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.253, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 850499259710678816}
   m_RootOrder: 1
@@ -134,7 +135,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.37, y: 0.42}
+  m_Size: {x: 0.27, y: 1.3900001}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -161,7 +162,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!70 &850499260025478416
+--- !u!70 &2345251726138853302
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,9 +175,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01, y: -0.02}
-  m_Size: {x: 0.32, y: 0.29}
-  m_Direction: 1
+  m_Offset: {x: -0.00000008195639, y: 0}
+  m_Size: {x: 0.18506388, y: 0.42}
+  m_Direction: 0
 --- !u!1 &850499260505539147
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +339,7 @@ GameObject:
   - component: {fileID: 850499261233384387}
   - component: {fileID: 850499261233384390}
   - component: {fileID: 850499261233384385}
-  - component: {fileID: 850499261233384384}
+  - component: {fileID: 3412842516637980298}
   m_Layer: 11
   m_Name: Broken Bottom
   m_TagString: Enemy
@@ -354,7 +355,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850499261233384386}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.797, z: 0}
+  m_LocalPosition: {x: 0, y: -0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 850499259710678816}
@@ -430,9 +431,9 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &850499261233384384
+--- !u!61 &3412842516637980298
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -1,0 +1,401 @@
+fileFormatVersion: 2
+guid: d9db172813d1d25439d662755ec2659f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8224431920681184381
+    second: underwater_rocks_nullshadow_v01_0
+  - first:
+      213: 4689603715750723796
+    second: underwater_rocks_nullshadow_v01_1
+  - first:
+      213: 2041278445026846058
+    second: underwater_rocks_nullshadow_v01_2
+  - first:
+      213: -1730334269021127584
+    second: underwater_rocks_nullshadow_v01_3
+  - first:
+      213: -2941793167329476849
+    second: underwater_rocks_nullshadow_v01_4
+  - first:
+      213: 3854885239131673308
+    second: underwater_rocks_nullshadow_v01_5
+  - first:
+      213: -4895370057871328410
+    second: underwater_rocks_nullshadow_v01_6
+  - first:
+      213: -2479095393932980274
+    second: underwater_rocks_nullshadow_v01_7
+  - first:
+      213: 4253328327092126479
+    second: underwater_rocks_nullshadow_v01_8
+  - first:
+      213: 5106156774659437378
+    second: underwater_rocks_nullshadow_v01_9
+  - first:
+      213: -3949861689530040442
+    second: underwater_rocks_nullshadow_v01_10
+  - first:
+      213: -3070319437416681123
+    second: underwater_rocks_nullshadow_v01_0
+  - first:
+      213: -2735448454355511070
+    second: underwater_rocks_nullshadow_v01_1
+  - first:
+      213: 6437058650267020112
+    second: underwater_rocks_nullshadow_v01_2
+  - first:
+      213: -6516057698977374014
+    second: underwater_rocks_nullshadow_v01_3
+  - first:
+      213: 1699076052756152751
+    second: underwater_rocks_nullshadow_v01_4
+  - first:
+      213: -1707415726505455989
+    second: underwater_rocks_nullshadow_v01_5
+  - first:
+      213: -5295361398282415763
+    second: underwater_rocks_nullshadow_v01_6
+  - first:
+      213: -6829891033295209929
+    second: underwater_rocks_nullshadow_v01_7
+  - first:
+      213: 173230925640316229
+    second: underwater_rocks_nullshadow_v01_8
+  - first:
+      213: 3129260607545018887
+    second: underwater_rocks_nullshadow_v01_9
+  - first:
+      213: -451871633581540813
+    second: underwater_rocks_nullshadow_v01_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: underwater_rocks_nullshadow_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 448
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d513dc92db80465d0800000000000000
+      internalID: -3070319437416681123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underwater_rocks_nullshadow_v01_1
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1719
+        width: 998
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e89fb0bf1cb90ad0800000000000000
+      internalID: -2735448454355511070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underwater_rocks_nullshadow_v01_2
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 0
+        width: 448
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b6587ccb6055950800000000000000
+      internalID: 6437058650267020112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underwater_rocks_nullshadow_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1331
+        width: 776
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0218cdb005295a0800000000000000
+      internalID: -6516057698977374014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underwater_rocks_nullshadow_v01_4
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 1389
+        width: 818
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa147eafaa4549710800000000000000
+      internalID: 1699076052756152751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underwater_rocks_nullshadow_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 951
+        width: 888
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e0ab9617a0e48e0800000000000000
+      internalID: -1707415726505455989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underwater_rocks_nullshadow_v01_6
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1005
+        width: 890
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d619f024dd81386b0800000000000000
+      internalID: -5295361398282415763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underwater_rocks_nullshadow_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 401
+        width: 862
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a30d1aa4a5731a0800000000000000
+      internalID: -6829891033295209929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underwater_rocks_nullshadow_v01_8
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 473
+        width: 848
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54537eaeb90776200800000000000000
+      internalID: 173230925640316229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underwater_rocks_nullshadow_v01_9
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 119
+        width: 776
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a085a61fd5d6b20800000000000000
+      internalID: 3129260607545018887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underwater_rocks_nullshadow_v01_10
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 214
+        width: 724
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33afb44b421aab9f0800000000000000
+      internalID: -451871633581540813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 1
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

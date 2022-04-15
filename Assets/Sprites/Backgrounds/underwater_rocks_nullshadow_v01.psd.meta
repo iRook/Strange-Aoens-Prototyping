@@ -89,6 +89,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -97,9 +99,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -120,9 +122,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -168,7 +173,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d513dc92db80465d0800000000000000
-      internalID: -3070319437416681123
+      internalID: 8224431920681184381
       vertices: []
       indices: 
       edges: []
@@ -189,7 +194,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2e89fb0bf1cb90ad0800000000000000
-      internalID: -2735448454355511070
+      internalID: 4689603715750723796
       vertices: []
       indices: 
       edges: []
@@ -210,7 +215,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 05b6587ccb6055950800000000000000
-      internalID: 6437058650267020112
+      internalID: 2041278445026846058
       vertices: []
       indices: 
       edges: []
@@ -231,7 +236,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2c0218cdb005295a0800000000000000
-      internalID: -6516057698977374014
+      internalID: -1730334269021127584
       vertices: []
       indices: 
       edges: []
@@ -252,7 +257,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fa147eafaa4549710800000000000000
-      internalID: 1699076052756152751
+      internalID: -2941793167329476849
       vertices: []
       indices: 
       edges: []
@@ -273,7 +278,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b8e0ab9617a0e48e0800000000000000
-      internalID: -1707415726505455989
+      internalID: 3854885239131673308
       vertices: []
       indices: 
       edges: []
@@ -294,7 +299,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d619f024dd81386b0800000000000000
-      internalID: -5295361398282415763
+      internalID: -4895370057871328410
       vertices: []
       indices: 
       edges: []
@@ -315,7 +320,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 73a30d1aa4a5731a0800000000000000
-      internalID: -6829891033295209929
+      internalID: -2479095393932980274
       vertices: []
       indices: 
       edges: []
@@ -336,7 +341,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 54537eaeb90776200800000000000000
-      internalID: 173230925640316229
+      internalID: 4253328327092126479
       vertices: []
       indices: 
       edges: []
@@ -357,7 +362,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 70a085a61fd5d6b20800000000000000
-      internalID: 3129260607545018887
+      internalID: 5106156774659437378
       vertices: []
       indices: 
       edges: []
@@ -378,7 +383,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 33afb44b421aab9f0800000000000000
-      internalID: -451871633581540813
+      internalID: -3949861689530040442
       vertices: []
       indices: 
       edges: []
@@ -393,6 +398,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      underwater_rocks_nullshadow_v01_6: -4895370057871328410
+      underwater_rocks_nullshadow_v01_0: 8224431920681184381
+      underwater_rocks_nullshadow_v01_1: 4689603715750723796
+      underwater_rocks_nullshadow_v01_7: -2479095393932980274
+      underwater_rocks_nullshadow_v01_4: -2941793167329476849
+      underwater_rocks_nullshadow_v01_8: 4253328327092126479
+      underwater_rocks_nullshadow_v01_2: 2041278445026846058
+      underwater_rocks_nullshadow_v01_3: -1730334269021127584
+      underwater_rocks_nullshadow_v01_5: 3854885239131673308
+      underwater_rocks_nullshadow_v01_9: 5106156774659437378
+      underwater_rocks_nullshadow_v01_10: -3949861689530040442
   spritePackingTag: 
   pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1

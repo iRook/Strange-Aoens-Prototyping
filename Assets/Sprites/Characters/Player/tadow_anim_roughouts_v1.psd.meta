@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: 9db2ab88c91601f498b965134b1ad70d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5918039750142569382
+    second: tadow_anim_roughouts_v1_0
+  - first:
+      213: -2803063372597737434
+    second: tadow_anim_roughouts_v1_1
+  - first:
+      213: 5920074719045414146
+    second: tadow_anim_roughouts_v1_2
+  - first:
+      213: -3239856656817546760
+    second: tadow_anim_roughouts_v1_3
+  - first:
+      213: -2693243726931644949
+    second: tadow_anim_roughouts_v1_4
+  - first:
+      213: 7175756751587761436
+    second: tadow_anim_roughouts_v1_5
+  - first:
+      213: 4819824350775976812
+    second: tadow_anim_roughouts_v1_6
+  - first:
+      213: 2859079652670458352
+    second: tadow_anim_roughouts_v1_7
+  - first:
+      213: -5750507147246623869
+    second: tadow_anim_roughouts_v1_8
+  - first:
+      213: 4180273612517091990
+    second: tadow_anim_roughouts_v1_9
+  - first:
+      213: -7681458254454506218
+    second: tadow_anim_roughouts_v1_10
+  - first:
+      213: -2940838696769256717
+    second: tadow_anim_roughouts_v1_11
+  - first:
+      213: -7276992159954818461
+    second: tadow_anim_roughouts_v1_12
+  - first:
+      213: 6955712561841350766
+    second: tadow_anim_roughouts_v1_13
+  - first:
+      213: -3708543021638960289
+    second: tadow_anim_roughouts_v1_14
+  - first:
+      213: 2843686834143603835
+    second: tadow_anim_roughouts_v1_15
+  - first:
+      213: -4651127988485022492
+    second: tadow_anim_roughouts_v1_16
+  - first:
+      213: 4839237998672258884
+    second: tadow_anim_roughouts_v1_17
+  - first:
+      213: 4202451401362224756
+    second: tadow_anim_roughouts_v1_18
+  - first:
+      213: 4132891982160769391
+    second: tadow_anim_roughouts_v1_19
+  - first:
+      213: 8293950011103468804
+    second: tadow_anim_roughouts_v1_20
+  - first:
+      213: 2246467229276793099
+    second: tadow_anim_roughouts_v1_21
+  - first:
+      213: -7232178055499870051
+    second: tadow_anim_roughouts_v1_22
+  - first:
+      213: -3398707455093190046
+    second: tadow_anim_roughouts_v1_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1648
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aba3e13cc9112250800000000000000
+      internalID: 5918039750142569382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1648
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6284761c6b48919d0800000000000000
+      internalID: -2803063372597737434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1648
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20de8705794582250800000000000000
+      internalID: 5920074719045414146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1648
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9943f3987b903d0800000000000000
+      internalID: -3239856656817546760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1648
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beda0ba891daf9ad0800000000000000
+      internalID: -2693243726931644949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ddffc2fb8659360800000000000000
+      internalID: 7175756751587761436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1248
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63a7c3e5b473e240800000000000000
+      internalID: 4819824350775976812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1248
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f948f9cbcd7da720800000000000000
+      internalID: 2859079652670458352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1248
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383250297381230b0800000000000000
+      internalID: -5750507147246623869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_9
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1248
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a250ad3b0530a30800000000000000
+      internalID: 4180273612517091990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d3f3a6a6af56590800000000000000
+      internalID: -7681458254454506218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 848
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2885959ca0037d0800000000000000
+      internalID: -2940838696769256717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 848
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a27988f2ee20b90800000000000000
+      internalID: -7276992159954818461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 848
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68a648d8b7a78060800000000000000
+      internalID: 6955712561841350766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_14
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 848
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bb4f045cb988cc0800000000000000
+      internalID: -3708543021638960289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ca591fb1ec67720800000000000000
+      internalID: 2843686834143603835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 448
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec1979bcbfd37fb0800000000000000
+      internalID: -4651127988485022492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 448
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447ae66025d682340800000000000000
+      internalID: 4839237998672258884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 448
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476b904b84b125a30800000000000000
+      internalID: 4202451401362224756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_19
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 448
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61b0cb5c5bfa5930800000000000000
+      internalID: 4132891982160769391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d5ba487970a1370800000000000000
+      internalID: 8293950011103468804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 48
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b096990fa0e0d2f10800000000000000
+      internalID: 2246467229276793099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 48
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d901e81506422ab90800000000000000
+      internalID: -7232178055499870051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_23
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 48
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262d2b3a39d55d0d0800000000000000
+      internalID: -3398707455093190046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tadow_anim_roughouts_v1_24
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 48
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68887671ba32b6744bd33edc4fe51ff2
+      internalID: 1697662821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tadow_anim_roughouts_v1_8: -5750507147246623869
+      tadow_anim_roughouts_v1_7: 2859079652670458352
+      tadow_anim_roughouts_v1_21: 2246467229276793099
+      tadow_anim_roughouts_v1_6: 4819824350775976812
+      tadow_anim_roughouts_v1_9: 4180273612517091990
+      tadow_anim_roughouts_v1_3: -3239856656817546760
+      tadow_anim_roughouts_v1_12: -7276992159954818461
+      tadow_anim_roughouts_v1_14: -3708543021638960289
+      tadow_anim_roughouts_v1_22: -7232178055499870051
+      tadow_anim_roughouts_v1_0: 5918039750142569382
+      tadow_anim_roughouts_v1_18: 4202451401362224756
+      tadow_anim_roughouts_v1_10: -7681458254454506218
+      tadow_anim_roughouts_v1_16: -4651127988485022492
+      tadow_anim_roughouts_v1_15: 2843686834143603835
+      tadow_anim_roughouts_v1_20: 8293950011103468804
+      tadow_anim_roughouts_v1_19: 4132891982160769391
+      tadow_anim_roughouts_v1_17: 4839237998672258884
+      tadow_anim_roughouts_v1_24: 1697662821
+      tadow_anim_roughouts_v1_4: -2693243726931644949
+      tadow_anim_roughouts_v1_2: 5920074719045414146
+      tadow_anim_roughouts_v1_13: 6955712561841350766
+      tadow_anim_roughouts_v1_23: -3398707455093190046
+      tadow_anim_roughouts_v1_5: 7175756751587761436
+      tadow_anim_roughouts_v1_11: -2940838696769256717
+      tadow_anim_roughouts_v1_1: -2803063372597737434
+  spritePackingTag: 
+  pSDRemoveMatte: 1
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -83,6 +83,8 @@ TextureImporter:
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -91,9 +93,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -114,9 +116,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -576,6 +581,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      grass_collection_v01_8: -6181704550657314388
+      grass_collection_v01_27: 2002766095194430856
+      grass_collection_v01_15: -2443965443751585126
+      grass_collection_v01_18: -3982379022492804071
+      grass_collection_v01_10: -3439334919957985244
+      grass_collection_v01_9: 8644871636615971546
+      grass_collection_v01_3: 8217160839441739853
+      grass_collection_v01_5: 3232724255998623032
+      grass_collection_v01_2: -1512431704947014550
+      grass_collection_v01_17: -3257952302005623606
+      grass_collection_v01_11: -2858037082172062414
+      grass_collection_v01_4: 1571894696856732372
+      grass_collection_v01_21: -1136597878213250768
+      grass_collection_v01_26: -7912696316998749485
+      grass_collection_v01_0: 5505813158531185282
+      grass_collection_v01_7: -3503283284254597288
+      grass_collection_v01_24: -3914832854479139502
+      grass_collection_v01_23: -5659223758422809375
+      grass_collection_v01_20: 8583965504345408613
+      grass_collection_v01_6: -4381847538159028139
   spritePackingTag: 
   pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1

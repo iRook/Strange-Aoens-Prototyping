@@ -75,6 +75,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float distanceBetweenImages;
     [SerializeField] float dashCoolDown;
 
+    // added by me
+    [SerializeField] private ParticleSystem jumpParticle, jump2Particle;
+    private GameObject groundCheckGO;
+
     [SerializeField] Vector2 wallHopDirection;
     [SerializeField] Vector2 wallJumpDirection;
 
@@ -93,6 +97,7 @@ public class PlayerController : MonoBehaviour
         amountOfJumpsLeft = amountOfJumps;
         wallHopDirection.Normalize();
         wallJumpDirection.Normalize();
+        groundCheckGO = transform.Find("GroundCheck").gameObject;
     }
 
     // Update is called once per frame
@@ -258,7 +263,7 @@ public class PlayerController : MonoBehaviour
             if (isGrounded || (amountOfJumpsLeft > 0 && !isTouchingWall))
             {
                 NormalJump();
-
+            
             }
             else
             {
@@ -306,6 +311,7 @@ public class PlayerController : MonoBehaviour
         dashTimeLeft = dashTime;
         lastDash = Time.time;
 
+
         PlayerAfterImagePool.Instance.GetFromPool();
         lastImageXpos = transform.position.x;
     }
@@ -319,6 +325,9 @@ public class PlayerController : MonoBehaviour
     {
         if (isDashing)
         {
+            // just added
+            anim.SetBool("isDashing", true);
+
             if (dashTimeLeft > 0)
             {
                 canMove = false;
@@ -338,6 +347,9 @@ public class PlayerController : MonoBehaviour
                 isDashing = false;
                 canMove = true;
                 canFlip = true;
+
+                // just added
+                anim.SetBool("isDashing", false);
             }
         }
     }
@@ -400,6 +412,10 @@ public class PlayerController : MonoBehaviour
             jumpTimer = 0;
             isAttemptingToJump = false;
             checkJumpMultiplier = true;
+
+            //Particle study below
+            Instantiate(jumpParticle, groundCheckGO.transform.position, jumpParticle.transform.rotation);
+            jump2Particle.Play();
         }
     }
     private void WallJump()
@@ -421,6 +437,29 @@ public class PlayerController : MonoBehaviour
             hasWallJumped = true;
             wallJumpTimer = wallJumpTimerSet;
             lastWallJumpDirection = -facingDirection;
+
+            //Particle study below
+            //if (isFacingRight)
+            //{
+            //    jumpParticle.transform.Rotate(0.0f, 0.0f, facingDirection * -90.0f);
+            //}
+            //else
+            //{
+                jumpParticle.transform.Rotate(0.0f, 0.0f, facingDirection * -90.0f);
+            //}
+
+            Instantiate(jumpParticle, groundCheckGO.transform.position, jumpParticle.transform.rotation);
+            jump2Particle.Play();
+
+            //if (isFacingRight)
+            //{
+            //    jumpParticle.transform.Rotate(0.0f, 0.0f, facingDirection * 90.0f);
+            //}
+            //else
+            //{
+                jumpParticle.transform.Rotate(0.0f, 0.0f, facingDirection * 90.0f);
+            //}
+
         }
     }
     private void ApplyMovement()

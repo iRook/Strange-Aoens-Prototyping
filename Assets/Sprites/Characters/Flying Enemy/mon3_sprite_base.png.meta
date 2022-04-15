@@ -218,6 +218,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -226,9 +228,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -249,9 +251,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -858,6 +863,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mon3_sprite_base_11: -2296677749422052583
+      mon3_sprite_base_13: -9113380481149128436
+      mon3_sprite_base_14: -2970575837476274897
+      mon3_sprite_base_9: 9181040804567924633
+      mon3_sprite_base_3: -5040765882375083913
+      mon3_sprite_base_24: -8785347423742062234
+      mon3_sprite_base_16: -3520721347529636823
+      mon3_sprite_base_4: -8093280867590028125
+      mon3_sprite_base_6: -2378909729436048022
+      mon3_sprite_base_8: 2708298223876117898
+      mon3_sprite_base_5: -5209340251661546190
+      mon3_sprite_base_17: 7507475548954668755
+      mon3_sprite_base_1: 5558809757705106164
+      mon3_sprite_base_20: -4780975225425377218
+      mon3_sprite_base_15: -7225675895274427133
+      mon3_sprite_base_23: -9002338635640350533
+      mon3_sprite_base_10: 4004300365091450901
+      mon3_sprite_base_0: 283582871561767070
+      mon3_sprite_base_7: 3377283344248129107
+      mon3_sprite_base_26: -7484120989075063280
+      mon3_sprite_base_12: -1268655960784323499
+      mon3_sprite_base_19: 118663255495877414
+      mon3_sprite_base_18: -7721284380921472776
+      mon3_sprite_base_2: -1254948161719812928
+      mon3_sprite_base_21: 5364220717458868423
+      mon3_sprite_base_22: -2026046237335556774
+      mon3_sprite_base_25: -3228545384271517349
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

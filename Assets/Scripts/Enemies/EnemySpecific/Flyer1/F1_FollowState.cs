@@ -30,9 +30,9 @@ public class F1_FollowState : FollowState
     {
         base.LogicUpdate();
 
-        if (isPlayerInMinAgroRange)
+        if (!isPlayerInMaxCircleAgroRange)
         {
-            stateMachine.ChangeState(enemy.playerDetectedState);
+            stateMachine.ChangeState(enemy.lookForPlayerState);
         }
         else
         {

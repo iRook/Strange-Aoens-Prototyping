@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: F1_FollowStateData
   m_EditorClassIdentifier: 
   followSpeed: 3
+  whereIsPlayer: {fileID: 6271141695753033743, guid: 8c67527b256eb134a8225a8db9f6f5db,
+    type: 3}

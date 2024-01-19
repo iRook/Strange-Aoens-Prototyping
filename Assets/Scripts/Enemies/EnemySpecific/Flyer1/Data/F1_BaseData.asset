@@ -19,6 +19,8 @@ MonoBehaviour:
   groundCheckRadius: 0.3
   minAgroDistance: 0
   maxAgroDistance: 5
+  minCircleAgroDistance: 10
+  maxCircleAgroDistance: 12
   stunResistance: 3
   stunRecoveryTime: 2
   closeRangeActionDistance: 1

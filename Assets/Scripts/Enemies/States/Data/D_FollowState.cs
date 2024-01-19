@@ -6,4 +6,6 @@ using UnityEngine;
 public class D_FollowState : ScriptableObject
 {
     public float followSpeed = 3.0f;
+
+    public GameObject whereIsPlayer;
 }

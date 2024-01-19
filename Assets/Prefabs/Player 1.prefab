@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1519176487476281755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5018784842921285421}
+  m_Layer: 9
+  m_Name: PlayerTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5018784842921285421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519176487476281755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.047, y: 0.79, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6271141695753033747}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4838443970848679602
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,6 +327,7 @@ Transform:
   - {fileID: 6271141693947204237}
   - {fileID: 6387864248827086122}
   - {fileID: 4091313927300742230}
+  - {fileID: 5018784842921285421}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -453,7 +485,7 @@ MonoBehaviour:
   ledgeClimbYOffset2: 0
   dashTime: 0.2
   dashSpeed: 50
-  distanceBetweenImages: 0.1
+  distanceBetweenImages: 100
   dashCoolDown: 1
   jumpParticle: {fileID: 4115918211608477770, guid: 0cc07b09cd6fed4489afe1ef0ab6b315,
     type: 3}

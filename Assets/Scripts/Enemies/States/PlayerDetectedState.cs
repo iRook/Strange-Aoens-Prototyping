@@ -8,6 +8,8 @@ public class PlayerDetectedState : State
 
     protected bool isPlayerInMinAgroRange;
     protected bool isPlayerInMaxAgroRange;
+    protected bool isPlayerInMinCircleAgroRange;
+    protected bool isPlayerInMaxCircleAgroRange;
     protected bool performLongRangeAction;
     protected bool performCloseRangeAction;
     protected bool isDetectingLedge;
@@ -23,6 +25,8 @@ public class PlayerDetectedState : State
         // moved out of enter method and physicsupdate method
         isPlayerInMinAgroRange = entity.CheckPlayerInMinAgroRange();
         isPlayerInMaxAgroRange = entity.CheckPlayerInMaxAgroRange();
+        isPlayerInMinCircleAgroRange = entity.CheckPlayerInMinCircleAgroRange();
+        isPlayerInMaxCircleAgroRange = entity.CheckPlayerInMaxCircleAgroRange();
         isDetectingLedge = entity.CheckLedge();
         performCloseRangeAction = entity.CheckPlayerInCloseRangeAction();
     }

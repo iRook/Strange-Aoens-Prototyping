@@ -29,6 +29,33 @@ public class F1_PlayerDetectedState : PlayerDetectedState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+
+        //if (performCloseRangeAction)
+        //{
+        //    stateMachine.ChangeState(enemy.meleeAttackState);
+        //}
+        //else if (performLongRangeAction)
+        //{
+        //    //enemy.idleState.SetFlipAfterIdle(false); removed when created charge state in part 15
+        //    stateMachine.ChangeState(enemy.chargeState);
+        //}
+        if (isPlayerInMinCircleAgroRange)
+        {
+            stateMachine.ChangeState(enemy.followState);
+        }
+        else if (!isPlayerInMaxCircleAgroRange)
+        {
+            stateMachine.ChangeState(enemy.lookForPlayerState);
+        }
+        //else if (!isPlayerInMaxAgroRange)
+        //{
+        //    stateMachine.ChangeState(enemy.lookForPlayerState);
+        //}
+        //else if (!isDetectingLedge)
+        //{
+        //    entity.Flip();
+        //    stateMachine.ChangeState(enemy.moveState);
+        //}
     }
 
     public override void PhysicsUpdate()

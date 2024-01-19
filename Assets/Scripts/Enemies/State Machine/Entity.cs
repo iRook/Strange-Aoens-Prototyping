@@ -19,6 +19,7 @@ public class Entity : MonoBehaviour
     [SerializeField] private Transform wallCheck;
     [SerializeField] private Transform ledgeCheck;
     [SerializeField] private Transform playerCheck;
+    [SerializeField] private Transform playerCircleCheck;
     [SerializeField] private Transform groundCheck;
 
     private float currentHealth;
@@ -61,6 +62,7 @@ public class Entity : MonoBehaviour
         stateMachine.currentState.PhysicsUpdate();
     }
 
+    // ground walking
     public virtual void SetVelocity(float velocity)
     {
         velocityWorkspace.Set(facingDirection * velocity, rb.velocity.y);
@@ -73,6 +75,15 @@ public class Entity : MonoBehaviour
         velocityWorkspace.Set(angle.x * velocity * direction, angle.y * velocity);
         rb.velocity = velocityWorkspace;
     }
+
+    // flying
+    //public virtual void SetFlyingVelocity(float velocity)
+    //{
+    //    velocityWorkspace.Set(facingDirection * velocity, velocity);
+    //    rb.velocity = velocityWorkspace;
+    //}
+
+
 
     public virtual bool CheckWall()
     {
@@ -97,6 +108,16 @@ public class Entity : MonoBehaviour
     public virtual bool CheckPlayerInMaxAgroRange()
     {
         return Physics2D.Raycast(playerCheck.position, aliveGO.transform.right, entityData.maxAgroDistance, entityData.whatIsPlayer);
+    }
+
+    public virtual bool CheckPlayerInMinCircleAgroRange()
+    {
+        return Physics2D.OverlapCircle(playerCircleCheck.position, entityData.minCircleAgroDistance, entityData.whatIsPlayer);
+    }
+
+    public virtual bool CheckPlayerInMaxCircleAgroRange()
+    {
+        return Physics2D.OverlapCircle(playerCircleCheck.position, entityData.maxCircleAgroDistance, entityData.whatIsPlayer);
     }
 
     public virtual bool CheckPlayerInCloseRangeAction()
@@ -160,5 +181,8 @@ public class Entity : MonoBehaviour
         Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.closeRangeActionDistance), 0.2f);
         Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.minAgroDistance), 0.2f);
         Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.maxAgroDistance), 0.2f);
+
+        Gizmos.DrawWireSphere(playerCircleCheck.position + (Vector3)(Vector2.right * entityData.circleAgroOffset), 10f);
+        Gizmos.DrawWireSphere(playerCircleCheck.position + (Vector3)(Vector2.right * entityData.circleAgroOffset), 12f);
     }
 }

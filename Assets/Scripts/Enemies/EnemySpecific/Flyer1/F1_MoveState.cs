@@ -6,7 +6,7 @@ public class F1_MoveState : MoveState
 {
     private Flyer1 enemy;
 
-    public F1_MoveState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_MoveState stateData, Flyer1 enemy) : base(entity, stateMachine, animBoolName, stateData)
+    public F1_MoveState( Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_MoveState stateData, Flyer1 enemy) : base(entity, stateMachine, animBoolName, stateData)
     {
         this.enemy = enemy;
     }
@@ -30,7 +30,7 @@ public class F1_MoveState : MoveState
     {
         base.LogicUpdate();
 
-        if (isPlayerInMinAgroRange)
+        if (isPlayerInMinCircleAgroRange)
         {
             stateMachine.ChangeState(enemy.playerDetectedState);
         }
